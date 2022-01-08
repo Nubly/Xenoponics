@@ -31,7 +31,7 @@ Examples:
 
 '''
 import sys
-import grove.i2c
+import lib.i2c
 
 __all__ = [
     "ADC",

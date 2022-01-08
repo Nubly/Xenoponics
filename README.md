@@ -1,4 +1,5 @@
-# [Xenoponics Logo](https://gitlab.51aliens.space/uploads/-/system/project/avatar/2/xenoponics.png)Xenoponics
+# ![Xenoponics Logo](./images/xenoponics.png) Xenoponics
+
 A repository for scripts and other tools to run hydroponics systems in a smarter way.
 
 ## Configured Scripts
@@ -16,6 +17,8 @@ Uses [Typer](https://typer.tiangolo.com), [python-requests](https://docs.python-
 
 ### Setup
 
+_Implicit purchase a Raspberry Pi and sensors and set it up goes here_
+
 1. Make a virtualenv
 
 ```shell
@@ -28,17 +31,16 @@ python3 -m venv .xenovenv
 source ./xenovenv/bin/activate
 ```
 
-3. Install pip dependencies
+3. Install
 
 ```shell
-pip3 install -r requirements.txt
+pip3 install xenoponics
 ```
 
 ### Usage
 
-See `./control.py --help` for usage information.
+See `xenoponics --help` for usage information.
 
 ---
 
 "I've been a plant lady since birth." - [McCDouble21](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-

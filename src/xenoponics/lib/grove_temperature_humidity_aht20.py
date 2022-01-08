@@ -30,7 +30,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 '''
 import time
-from grove.i2c import Bus
+from lib.i2c import Bus
 
 
 class GroveTemperatureHumidityAHT20(object):
