@@ -103,7 +103,7 @@ def main(
 
         # Sensor imports
         from lib import(
-                temp_humid as gt,
+                grove_temperature_humidity_aht20 as gt,
                 TDS as gtds,
         )
         from w1thermsensor import W1ThermSensor, Unit
