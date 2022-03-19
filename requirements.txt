@@ -1,0 +1,15 @@
+certifi==2021.10.8
+charset-normalizer==2.0.12
+click==8.0.4
+enum34==1.1.10
+ete3==3.1.2
+idna==3.3
+Logbook==1.5.3
+ply==3.11
+pycos==4.12.1
+requests==2.27.1
+smbus2==0.4.1
+tabulate==0.8.9
+typer==0.4.0
+urllib3==1.26.9
+w1thermsensor==2.0.0
