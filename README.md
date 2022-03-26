@@ -1,4 +1,5 @@
-# ![Xenoponics Logo](./images/xenoponics.png) Xenoponics
+![Xenoponics Logo](https://raw.githubusercontent.com/Nubly/Xenoponics/main/images/xenoponics.png "Xenoponics Logo") 
+# Xenoponics
 
 A repository for scripts and other tools to run hydroponics systems in a smarter way.
 

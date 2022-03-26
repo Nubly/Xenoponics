@@ -45,7 +45,7 @@ HEADERS = {
     "Accept": "application/json",
 }
 
-# TODO: This type hinting is really fucking ugly lol, do something bout it
+# This type hinting is ugly, but at least it's here 
 def get_post_data(data: dict[str, float, float, int, float]) -> dict[str, str]:
     """
     Helper function to return GraphQL friendly string for API call.

@@ -12,7 +12,7 @@ setup(
 
     # Versions should comply with PEP 440
     # https://www.python.org/dev/peps/pep-0440/
-    version='0.0.1',  # Required
+    version='0.0.2',  # Required
 
     description='Tools and scripts to run hydroponics systems in a smarter way.',
     long_description=long_description,
