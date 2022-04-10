@@ -50,8 +50,7 @@ setup(
     install_requires=[
         'requests',
         'smbus2',
-        'typer'
-        'w1thermsensor',
+        'typer',
     ],
 
     # To provide executable scripts, use entry points
