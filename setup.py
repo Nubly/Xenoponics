@@ -12,7 +12,7 @@ setup(
 
     # Versions should comply with PEP 440
     # https://www.python.org/dev/peps/pep-0440/
-    version='0.0.2',  # Required
+    version='0.0.3',  # Required
 
     description='Tools and scripts to run hydroponics systems in a smarter way.',
     long_description=long_description,
@@ -41,7 +41,8 @@ setup(
 
     # You can just specify package directories manually here if your project is
     # simple. Or you can use find_packages().
-    packages=find_packages(exclude=['tests']),
+    packages=['xenoponics'],
+    package_dir= {"xenoponics": "src/xenoponics"},
 
     # Supported Python versions
     python_requires='>=3.8, <4',
@@ -51,12 +52,13 @@ setup(
         'requests',
         'smbus2',
         'typer',
+        'w1thermsensor',
     ],
 
     # To provide executable scripts, use entry points
     entry_points={
         'console_scripts': [
-            'xenoponics=control:main',
+            'xenoponics=xenoponics.control:main',
         ],
     },
 )

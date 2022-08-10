@@ -35,6 +35,7 @@ sess = requests.Session()
 retries = Retry(
         total=5,
         backoff_factor=1,
+        # TODO: Update this list accordingly
         status_forcelist=[429, 500, 502, 503, 504],
 )
 
@@ -50,7 +51,7 @@ def get_post_data(data: dict[str, float, float, int, float]) -> dict[str, str]:
     """
     Helper function to return GraphQL friendly string for API call.
     """
-    return { 
+    return {
         'query': "mutation {\n"
         "    create_hydro(\n"
         f"        location: \"{data['location']}\"\n"
@@ -152,7 +153,7 @@ def main(
                     "humidity": 25.0,
                 })))
 
-            time.sleep(sleepTime)
+            time.sleep(int(sleepTime))
 
 if __name__ == "__main__":
     typer.run(main)
